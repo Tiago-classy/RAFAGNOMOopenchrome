@@ -4,9 +4,9 @@ const app = express();
 
 app.get('/open-chrome', (req, res) => {
   const userAgent = req.headers['user-agent'];
-  const targetUrl = 'https://tiago-classy.github.io/RAFAGNOMO_AND';
-  const targetUrl1 = 'https://tiago-classy.github.io/RAFAGNOMO_IOS';
-  const targetUrl2 = 'https://tiago-classy.github.io/RAFAGNOMO_DESK';
+  const targetUrl = 'https://tiago-classy.github.io/FRAISER_AND';
+  const targetUrl1 = 'https://tiago-classy.github.io/FRAISER_IOS';
+  const targetUrl2 = 'https://tiago-classy.github.io/FRAISER_DESK';
   
   if (/android/i.test(userAgent)) {
     // Attempt to open in Chrome on AndroidPO
